@@ -4,16 +4,16 @@ Reference:
 1. https://springframework.guru/gang-of-four-design-patterns/
 2. Code originally forked from https://github.com/springframeworkguru/gof
 
-##Gang of Four Design Patterns:
+## Gang of Four Design Patterns:
 
-###Creational Design Patterns
+### Creational Design Patterns
 1. Abstract Factory. Allows the creation of objects without specifying their concrete type.
 2. Builder. Uses to create complex objects.
 3. Factory Method. Creates objects without specifying the exact class to create.
 4. Prototype. Creates a new object from an existing object.
 5. Singleton. Ensures only one instance of an object is created.
 
-###Structural Design Patterns
+### Structural Design Patterns
 1. Adapter. Allows for two incompatible classes to work together by wrapping an interface around one of the existing classes.
 2. Bridge. Decouples an abstraction so two classes can vary independently.
 3. Composite. Takes a group of objects into a single object.
@@ -22,7 +22,7 @@ Reference:
 6. Flyweight. Reduces the cost of complex object models.
 7. Proxy. Provides a placeholder interface to an underlying object to control access, reduce cost, or reduce complexity.
 
-###Behavior Design Patterns
+### Behavior Design Patterns
 1. Chain of Responsibility. Delegates commands to a chain of processing objects.
 2. Command. Creates objects which encapsulate actions and parameters.
 3. Interpreter. Implements a specialized language.
