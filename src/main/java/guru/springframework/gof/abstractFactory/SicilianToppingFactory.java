@@ -5,9 +5,14 @@ import guru.springframework.gof.abstractFactory.topping.MozzarellaCheese;
 import guru.springframework.gof.abstractFactory.topping.Sauce;
 import guru.springframework.gof.abstractFactory.topping.TomatoSauce;
 
-public class SicilianToppingFactory extends BaseToppingFactory{
+public class SicilianToppingFactory extends BaseToppingFactory {
     @Override
-    public  Cheese createCheese(){return new MozzarellaCheese();}
+    public Cheese createCheese() {
+        return new MozzarellaCheese();
+    }
+
     @Override
-    public  Sauce createSauce(){return new TomatoSauce();}
+    public Sauce createSauce() {
+        return new TomatoSauce();
+    }
 }

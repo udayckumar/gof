@@ -4,7 +4,7 @@ import guru.springframework.gof.visitor.structure.OperaMailClient;
 import guru.springframework.gof.visitor.structure.SquirrelMailClient;
 import guru.springframework.gof.visitor.structure.ZimbraMailClient;
 
-public class WindowsMailClientVisitor implements MailClientVisitor{
+public class WindowsMailClientVisitor implements MailClientVisitor {
     @Override
     public void visit(OperaMailClient mailClient) {
         System.out.println("Configuration of Opera mail client for Windows complete");

@@ -2,11 +2,12 @@ package guru.springframework.gof.abstractFactory.topping;
 
 public class GoatCheese implements Cheese {
 
-    public  GoatCheese(){
-       prepareCheese();
+    public GoatCheese() {
+        prepareCheese();
     }
+
     @Override
-    public void prepareCheese(){
+    public void prepareCheese() {
         System.out.println("Preparing goat cheese...");
     }
 }

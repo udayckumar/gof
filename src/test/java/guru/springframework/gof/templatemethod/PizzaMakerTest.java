@@ -2,8 +2,6 @@ package guru.springframework.gof.templatemethod;
 
 import org.junit.Test;
 
-import static org.junit.Assert.*;
-
 
 public class PizzaMakerTest {
 
